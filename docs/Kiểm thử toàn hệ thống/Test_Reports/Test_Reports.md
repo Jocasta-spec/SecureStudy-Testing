@@ -1,4 +1,4 @@
-# Báo cáo Thực hiện Kế hoạch Kiểm thử - Dự án SecureInsure-Testing
+# Báo cáo Thực hiện Kế hoạch Kiểm thử - Dự án SecureStudy-Testing
 
 **Ngày**: 26 tháng 5 năm 2025  
 **Tác giả**: Nhóm Dự án (2 Thành viên)  
