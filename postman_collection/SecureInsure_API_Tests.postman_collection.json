@@ -1,0 +1,725 @@
+{
+	"info": {
+		"_postman_id": "cdb996f5-7b1d-40d9-a532-bbe13d2ca804",
+		"name": "SecureInsure_API_Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45769298",
+		"_collection_link": "https://camtunguyen-675409.postman.co/workspace/Cam-Tu-Nguyen's-Workspace~b327931a-c956-4176-82f0-325286c7c7f1/collection/45769298-cdb996f5-7b1d-40d9-a532-bbe13d2ca804?action=share&source=collection_link&creator=45769298"
+	},
+	"item": [
+		{
+			"name": "http://localhost/API_Secu/AdminUpdate",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <token_placeholder>",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"tuchuc848@gmail.com\",\r\n  \"role\": \"Admin\",\r\n  \"Phone\": \"098789\",\r\n  \"csrf_token\": \"valid_csrf_token\",\r\n  \"status\": \"Active\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/API_Secu/AdminUpdate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"API_Secu",
+						"AdminUpdate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/API_Secu/AdminUpdate",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <token_placeholder>",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"tuchuc848@gmail.com\",\r\n  \"role\": \"Admin\",\r\n  \"Phone\": \"098789\",\r\n  \"status\": \"Active\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/API_Secu/AdminUpdate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"API_Secu",
+						"AdminUpdate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/API_Secu/AdminUpdate",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <token_placeholder>",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"tuchuc848@gmail.com\",\r\n  \"role\": \"' OR '1'='1\",\r\n  \"csrf_token\": \"valid_csrf_token\",\r\n  \"status\": \"Active\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/API_Secu/AdminUpdate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"API_Secu",
+						"AdminUpdate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/API_Secu/add",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <token_placeholder>",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"email\": \"camtu.alexia@gmail.com\",\r\n    \"csrf_token\": \"valid_csrf_token\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/API_Secu/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"API_Secu",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/API_Secu/add",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"email\": \"camtu.alexia@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/API_Secu/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"API_Secu",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/API_Secu/add",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"email\": \"camtu.alexia@gmail.com\",\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/API_Secu/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"API_Secu",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/API_Secu/add",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <token_placeholder>",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"email\": \"camtu.alexia@gmail.com\",\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/API_Secu/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"API_Secu",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/API_Secu/add",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <token_placeholder>",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"email\": \"camtu.alexia@gmail.com\",\r\n    \"Status\": \"Active\",\r\n    \"csrf_token\": \"valid_csrf_token\",\r\n    \"expires_at\": \"2025-06-10 14:52:28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/API_Secu/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"API_Secu",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/API_Secu/add",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <token_placeholder>",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"email\": \"tuchuc848@gmail.com\",\r\n    \"Status\": \"Active\",\r\n    \"csrf_token\": \"valid_csrf_token\",\r\n    \"expires_at\": \"2025-06-10 14:52:28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/API_Secu/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"API_Secu",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/API_Secu/add",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <token_placeholder>",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"email\": \"tuchuc848@gmail.com\",\r\n    \"Status\": \"Active\",\r\n    \"auth_token\": \"<token_placeholder>\",\r\n    \"csrf_token\": \"valid_csrf_token\",\r\n    \"expires_at\": \"2025-06-10 14:52:28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/API_Secu/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"API_Secu",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/API_Secu/add",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <103112844023347790904>",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"email\": \"tuchuc848@gmail.com\",\r\n    \"Status\": \"Active\",\r\n    \"auth_token\": \"<token_placeholder>\",\r\n    \"csrf_token\": \"valid_csrf_token\",\r\n    \"expires_at\": \"2025-06-10 14:52:28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/API_Secu/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"API_Secu",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/API_Secu/add",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <<token_placeholder>>",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"email\": \"tuchuc848@gmail.com\",\r\n    \"Status\": \"Active\",\r\n    \"auth_token\": \"<token_placeholder>\",\r\n    \"csrf_token\": \"valid_csrf_token\",\r\n    \"expires_at\": \"2025-06-10 14:52:28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/API_Secu/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"API_Secu",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/API_Secu/add",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <token_placeholder>",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"email\": \"tuchuc848@gmail.com\",\r\n    \"Status\": \"Active\",\r\n    \"csrf_token\": \"valid_csrf_token\",\r\n    \"expires_at\": \"2025-06-10 14:52:28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/API_Secu/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"API_Secu",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/API_Secu/add",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <token_placeholder>",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"email\": \"tuchuc848@gmail.com\",\r\n    \"Status\": \"Active\",\r\n    \"csrf_token\": \"valid_csrf_token\",\r\n    \"expires_at\": \"2025-06-10 14:52:28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/API_Secu/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"API_Secu",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/API_Secu/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer <103112844023347790904>",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"email\": \"tuchuc848@gmail.com\",\r\n    \"Status\": \"Active\",\r\n    \"access_token\": \"<token_placeholder>\",\r\n    \"expires_at\": \"2025-06-10 14:52:28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/API_Secu/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"API_Secu",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
