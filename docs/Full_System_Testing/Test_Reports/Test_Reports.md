@@ -1,6 +1,6 @@
 # Báo cáo Thực hiện Kế hoạch Kiểm thử - Dự án SecureStudy-Testing
 
-**Ngày**: 26 tháng 5 năm 2025  
+**Ngày**: 30 tháng 10 năm 2025  
 **Tác giả**: Nhóm Dự án (2 Thành viên)  
 **Người giám sát**: Thạc sĩ Võ Ngọc Tấn Phước  
 
@@ -92,4 +92,4 @@
 - **Nguy cơ**: Lộ cấu trúc API, file config (username/password database), hoặc mã nguồn, làm tăng nguy cơ tấn công SQL Injection hoặc lấy token.
 
 ## Kết luận
-Tất cả 34 trường hợp kiểm thử đã được thực hiện. Trong đó, 28 trường hợp đạt, 6 trường hợp thất bại. Các trường hợp thất bại (TC_LOGIN_APP_01, TC_LOGIN_APP_03, TC_ROLE_APP_01, TC_ROLE_APP_02, TC_GETUSER_APP_01, TC_GETUSER_APP_02, TC_ADDUSER_APP_01, TC_ADDUSER_APP_02, TC_ADDUSER_APP_04 (Lần 1), TC_DELETEUSER_APP_01, TC_DELETEUSER_APP_02, TC_UPDATEUSER_APP_01, TC_UPDATEUSER_APP_02, TC_LOGOUT_APP_01, TC_LOGOUT_APP_02) cần được gỡ lỗi và sửa chữa thêm. TC_API_Secu_03 cần kiểm tra bổ sung về bảo mật SQL Injection. Cần khắc phục các lỗi bảo mật được tìm thấy từ OWASP ZAP.
+Tất cả 34 trường hợp kiểm thử đã được thực hiện. Trong đó, 19 trường hợp đạt, 15 trường hợp thất bại. Tuy nhiên, các trường hợp lỗi sau khi được chỉnh sửa và re-test, đã cho kết quả khả quan và được khắc phục. 
