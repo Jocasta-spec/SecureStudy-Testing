@@ -5,7 +5,7 @@
 ## 1. Thông tin chung
 - **Số lượng test case thực hiện:** 23 test cases về bảo mật  
 - **Phạm vi kiểm thử:** Web (PHP), Desktop App (Java Swing), API (PHP)  
-- **Công cụ chính:** Postman Windowns 64-bit, OWASP ZAP 2.16.1
+- **Công cụ chính:** Postman Windowns 64-bit, Thunder Client (Lightweight Rest API Client for VS Code)
 - **Môi trường:** Localhost (XAMPP 8.2 + JDK 25)  
 - **Kết quả tổng thể:** **100% Passed**
 ## 2. Phân loại Test Cases
