@@ -34,7 +34,7 @@ GVHD: Thạc sĩ Võ Ngọc Tấn Phước
 ## Link quan trọng
 - [34 Test Cases – Toàn hệ thống](docs/Full_System_Testing/Test_Cases/)
 - [23 Test Cases Bảo mật](docs/Security_Testing/Test_Cases/Security_Testing.md)
-- [Báo cáo kiểm thử chính thức](docs/Test_Reports/Final_Test_Report.pdf)
+- [Báo cáo kiểm thử chính thức](docs/Test_Reports/Final_Test_Report.md)
 - [OWASP ZAP Report (Clean)](docs/Full_System_Testing/owasp_report/)
 - [Postman Collection – Full](docs/Full_System_Testing/postman_collection/)
 - [Postman Collection – Security Only](docs/Security_Testing/postman_collection/)
