@@ -34,6 +34,6 @@ Tài liệu này chứa các trường hợp kiểm thử cho API SecureInsure, 
 
 ## Ghi chú
 - **Công cụ sử dụng**: Postman cho kiểm thử chức năng API, OWASP ZAP (2.16.1) cho quét bảo mật.
-- **Môi trường**: Localhost (XAMPP, MySQL), kiểm thử vào tháng 5 năm 2025.
+- **Môi trường**: Localhost (XAMPP, MySQL), kiểm thử vào tháng 10 năm 2025.
 - **Các sửa chữa đã thực hiện**: Xác thực CSRF token, sử dụng prepared statements.
 - **Ảnh chụp màn hình**: [OWASP ZAP](docs/Screenshots/OWASP_Screenshots/zap_csrf_alert.png)

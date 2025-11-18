@@ -35,7 +35,7 @@ Kế hoạch kiểm thử này phác thảo chiến lược kiểm thử cho h�
 
 ### 2.3 Môi trường Kiểm thử
 - **Phần cứng:** Máy tính tiêu chuẩn với Windows 11.
-- **Phần mềm:** XAMPP, PHP, Java (Maven), Chrome, Edge, Postman, OWASP ZAP.
+- **Phần mềm:** XAMPP, PHP, Java (Maven), Chrome, Edge, Postman, OWASP ZAP, Thunder Client (Lightweight Rest API Client for VS Code).
 - **Mạng:** Localhost (http://localhost/API_Secu).
 
 ## 3. Lịch trình Kiểm thử
