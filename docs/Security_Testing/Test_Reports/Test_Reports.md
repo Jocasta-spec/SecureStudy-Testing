@@ -12,8 +12,8 @@
   -	PHP Version: trên 8.0
   -	Database: MariaDB 10.4.32 (XAMPP)
   -	Môi trường kiểm thử (Test Environment): 
-    o	Web: Local Test Environment với Apache, MySQL trên XAMPP và Chrome/Edge làm client.
-    o	Desktop: Development runtime trên IDE + JVM
+    - Web: Local Test Environment với Apache, MySQL trên XAMPP và Chrome/Edge làm client.
+    - Desktop: Development runtime trên IDE + JVM
   
 - **Kết quả tổng thể:** **100% Passed** (tất cả 32 test case đều đạt P – Pass)
 
