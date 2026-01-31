@@ -5,9 +5,10 @@ Hệ thống Thi Trắc nghiệm Trực tuyến Đa nền tảng (Web + Desktop 
 GVHD: Thạc sĩ Võ Ngọc Tấn Phước
 
 ## Tổng quan
-- **34 test cases kiểm thử toàn hệ thống** (chức năng + giao diện + luồng nghiệp vụ)  
-- **23 test cases kiểm thử bảo mật chuyên sâu** (Authentication, CSRF, SQL Injection, RBAC, Input Validation)  
-- Công cụ: Postman, OWASP ZAP 2.16.1, Manual Testing  
+- **33 test cases kiểm thử chức năng hệ thống** (tập trung kiểm thử các chức năng cốt lõi của hệ thống SecureStudy, đảm bảo chức năng hoạt động đúng thiết 
+kế, góp phần giúp đề tài có tính thực tiễn khi triển khai an toàn cho API trên hệ thống).
+- **32 test cases kiểm thử bảo mật** (CSRF Protection, JWT & CRUD Security, RBAC, SQL Injection, Rate-limiting).
+- Công cụ: Manual Testing, Thunder Client, Postman.
 
 ## Badges
 ![Postman](https://img.shields.io/badge/Postman-34_Tests-orange?style=flat&logo=postman)
@@ -22,20 +23,14 @@ GVHD: Thạc sĩ Võ Ngọc Tấn Phước
 
 | Loại kiểm thử            | Số lượng | Trạng thái      | Ghi chú                                      |
 |--------------------------|----------|------------------|----------------------------------------------|
-| Kiểm thử toàn hệ thống   | 34       | 100% Passed      | Bao gồm Web, Desktop App, API                |
-| Kiểm thử bảo mật chuyên sâu | 23       | 100% Passed      | Tập trung CSRF, SQLi, RBAC, Token, Input Val |
+| Kiểm thử toàn hệ thống   | 33       | 100% Passed      | Bao gồm Web, Desktop App, API                |
+| Kiểm thử bảo mật chuyên sâu | 32       | 100% Passed      | Tập trung CSRF, SQLi, RBAC, JWT & CRUD Security, Rate-limiting |
 
-**Các lỗ hổng đã được khắc phục:**
-- CSRF Protection bằng X-CSRF-Token bắt buộc
-- SQL Injection → dùng Prepared Statements
-- RBAC nghiêm ngặt: Student/Lecturer không vào được Admin Panel
-- Token lưu trữ mã hóa Base64 + tự động xóa khi logout
 
 ## Link quan trọng
-- [34 Test Cases – Toàn hệ thống](docs/Full_System_Testing/Test_Cases/)
-- [23 Test Cases Bảo mật](docs/Security_Testing/Test_Cases/Security_Testing.md)
+- [33 Test Cases Chức năng](docs/Full_System_Testing/Test_Cases/)
+- [32 Test Cases Bảo mật](docs/Security_Testing/Test_Cases/Security_Testing.md)
 - [Báo cáo kiểm thử chính thức](docs/Test_Reports/Final_Test_Report.md)
-- [OWASP ZAP Report (Clean)](docs/Full_System_Testing/owasp_report/)
 - [Postman Collection – Full](docs/Full_System_Testing/postman_collection/)
 - [Postman Collection – Security Only](docs/Security_Testing/postman_collection/)
 
