@@ -53,21 +53,21 @@
 
 | STT | Mã testcase     | Mô tả                                          |
 |-----|------------------|------------------------------------------------|
-| 1   | TC_SQLi_001     | SQLi vào trường dữ liệu (values)               |
-| 2   | TC_SQLi_002     | Numeric param injection                        |
-| 3   | TC_SQLi_003     | Stacked query (DROP)                           |
-| 4   | TC_SQLi_004     | Comment based injection                        |
-| 5   | TC_SQLi_005     | Type binding - Input sai type                  |
-| 6   | TC_SQLi_006     | Bypass attempt                                 |
-| 7   | TC_SQLi_007     | Không nhận column lạ – Column Filtering        |
+| 1   | TC_SQLi_001     | Kiểm tra SQLi vào trường dữ liệu (values)               |
+| 2   | TC_SQLi_002     | Kiểm tra Numeric param injection                        |
+| 3   | TC_SQLi_003     | Kiểm tra Stacked query (DROP)                           |
+| 4   | TC_SQLi_004     | Kiểm tra Comment based injection                        |
+| 5   | TC_SQLi_005     | Kiểm tra Type binding - Input sai type                  |
+| 6   | TC_SQLi_006     | Kiểm tra Bypass attempt                                 |
+| 7   | TC_SQLi_007     | Kiểm tra không nhận column lạ – Column Filtering        |
 
 ### 1.5. Rate-limiting (3 test cases)
 
 | STT | Mã testcase     | Mô tả                                           |
 |-----|------------------|-------------------------------------------------|
-| 1   | TC_RL_001       | Rate-limiting khi add quá số lần/phút           |
-| 2   | TC_RL_002       | Rate-limiting khi delete quá số lần/phút        |
-| 3   | TC_RL_003       | Rate-limiting khi update quá số lần/phút        |
+| 1   | TC_RL_001       | Kiểm tra Rate-limiting khi add quá số lần/phút           |
+| 2   | TC_RL_002       | Kiểm tra Rate-limiting khi delete quá số lần/phút        |
+| 3   | TC_RL_003       | Kiểm tra Rate-limiting khi update quá số lần/phút        |
 
 ## 2. Thực thi kiểm thử (Chi tiết toàn bộ 32 test case)
 
