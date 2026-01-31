@@ -23,8 +23,8 @@ Kế hoạch kiểm thử này phác thảo chiến lược kiểm thử cho h�
 ## 2. Chiến lược Kiểm thử
 ### 2.1 Cấp độ Kiểm thử
 - **Kiểm thử Đơn vị:** Các thành phần riêng lẻ (endpoint API, phần tử UI).
-- **Kiểm thử Tích hợp:** Tích hợp giữa web, desktop và API.
-- **Kiểm thử Hệ thống:** Chức năng toàn diện trên các nền tảng.
+- **Kiểm thử Tích hợp:** Tích hợp giữa các sub-module chức năng, web, desktop và API.
+- **Kiểm thử Hệ thống:** Chức năng toàn diện và tính năng bảo mật trên các nền tảng.
 - **Kiểm thử Chấp nhận:** Xác nhận theo yêu cầu người dùng.
 
 ### 2.2 Loại Kiểm thử
@@ -35,7 +35,7 @@ Kế hoạch kiểm thử này phác thảo chiến lược kiểm thử cho h�
 
 ### 2.3 Môi trường Kiểm thử
 - **Phần cứng:** Máy tính tiêu chuẩn với Windows 11.
-- **Phần mềm:** XAMPP, PHP, Java (Maven), Chrome, Edge, Postman, OWASP ZAP, Thunder Client (Lightweight Rest API Client for VS Code).
+- **Phần mềm:** XAMPP, PHP, Java (Maven), Chrome, Edge, Postman, Thunder Client (Lightweight Rest API Client for VS Code).
 - **Mạng:** Localhost (http://localhost/API_Secu).
 
 ## 3. Lịch trình Kiểm thử
@@ -47,22 +47,22 @@ Kế hoạch kiểm thử này phác thảo chiến lược kiểm thử cho h�
 | Kiểm thử Chấp nhận      | 02/11/2025       | 15/11/2025        | 2 tuần         | Cả hai                  |
 
 ## 4. Sản phẩm Kiểm thử
-- Trường hợp kiểm thử (ví dụ: TC_LOGIN_APP_01, TC_ADMIN_WEB_ADDUSER_01).
-- Kết quả và nhật ký kiểm thử.
-- Báo cáo lỗi (ví dụ: BUG-TC_LOGIN_APP_01).
-- Báo cáo tóm tắt kiểm thử cuối cùng.
+- Trường hợp kiểm thử (Test case).
+- Kết quả và nhật ký kiểm thử (Test Result).
+- Báo cáo lỗi (Bug/Defect report).
+- Báo cáo tóm tắt kiểm thử cuối cùng (Test Summary Report).
 
 ## 5. Vai trò và Trách nhiệm
-- **Nguyễn Thị Cẩm Tú:** Phát triển UI web, kiểm thử, tài liệu hóa.
-- **Võ Phạm Đăng Khoa:** Phát triển API, kiểm thử bảo mật, tích hợp.
+- **Nguyễn Thị Cẩm Tú:** Phát triển UI web, desktop app, kiểm thử, tài liệu hóa.
+- **Võ Phạm Đăng Khoa:** Phát triển API, kiểm thử đơn vị, tích hợp.
 
 ## 6. Rủi ro và Giải pháp
 - **Rủi ro:** Vấn đề tích hợp giữa web và desktop.
   - **Giải pháp:** Kiểm thử tích hợp sớm.
-- **Rủi ro:** Lỗ hổng bảo mật.
-  - **Giải pháp:** Sử dụng OWASP ZAP để kiểm tra bảo mật.
+- **Rủi ro:** Sập hệ thống XAMPP, máy tính hư đột xuất.
+  - **Giải pháp:** Luôn backup code ở phiên bản mới nhất.
 - **Rủi ro:** Quy mô kiểm thử hạn chế.
-  - **Giải pháp:** Lên kế hoạch kiểm thử trên server thực tế trong tương lai.
+  - **Giải pháp:** Thực hiện kỹ manual testing, tìm hiểu thêm công cụ hỗ trợ kiểm thử.
 
 ## 7. Phê duyệt
 - **Được Phê duyệt Bởi:** Nguyễn Thị Cẩm Tú và Võ Phạm Đăng Khoa
