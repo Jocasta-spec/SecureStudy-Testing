@@ -10,13 +10,13 @@
 - **Kết quả tổng thể:** **100% Passed** (tất cả 32 test case đều đạt P – Pass)
 
 ## 2. Phân loại Test Cases theo nhóm (theo tài liệu gốc)
-| Nhóm kiểm thử                        | Số lượng | Mã test case                                                                 | Tỷ lệ Pass | Ghi chú chính trong tài liệu gốc |
+| Nhóm kiểm thử                        | Số lượng | Mã test case                                                                 | Tỷ lệ Pass | Ghi chú chính |
 |--------------------------------------|----------|------------------------------------------------------------------------------|------------|----------------------------------|
 | CSRF Protection                      | 6        | TC_CSRF_001 → TC_CSRF_006                                                    | 100%       | Kiểm tra thiếu/không khớp CSRF token ở body, cookie, header X-CSRF-Token |
-| JWT & CRUD Security                  | 5        | TC_CRUD-JWT_001 → TC_CRUD-JWT_005                                            | 100%       | CRUD yêu cầu JWT hợp lệ, token hết hạn trả 401 |
+| JWT & CRUD Security                  | 5        | TC_CRUD-JWT_001 → TC_CRUD-JWT_005                                            | 100%       | CRUD yêu cầu JWT hợp lệ |
 | RBAC – Kiểm soát truy cập theo vai trò | 11     | TC_RBAC_001 → TC_RBAC_011                                                    | 100%       | Redirect dashboard đúng role (Web & Desktop), scope self/all, endpoint quyền hạn |
 | SQL Injection                        | 7        | TC_SQLi_001 → TC_SQLi_007                                                    | 100%       | Prepared statements chống values, numeric, stacked, comment, type binding, bypass, fake column |
-| Rate-limiting – Giới hạn tần suất    | 3        | TC_RL_001 → TC_RL_003                                                        | 100%       | Giới hạn 2 lần/phút cho add/delete/update, thông báo khi vượt |
+| Rate-limiting – Giới hạn tần suất    | 3        | TC_RL_001 → TC_RL_003                                                        | 100%       | Giới hạn số lần thao tác cho các API endpoint, thông báo khi vượt |
 | **Tổng cộng**                        | **32**   | Tất cả các mã trên                                                           | **100%**   |                                  |
 
 ## 3. Danh sách đầy đủ 32 Test Case đã thực thi và kết quả
