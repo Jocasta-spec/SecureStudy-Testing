@@ -37,17 +37,17 @@
 
 | STT | Mã testcase     | Mô tả                                                                 |
 |-----|------------------|-----------------------------------------------------------------------|
-| 1   | TC_RBAC_001     | Redirect đúng trang sau login web (admin)                             |
-| 2   | TC_RBAC_002     | Redirect đúng trang sau login web (teacher)                           |
-| 3   | TC_RBAC_003     | Redirect đúng trang sau login web (student)                           |
-| 4   | TC_RBAC_004     | Redirect đúng trang sau login desktop (admin)                         |
-| 5   | TC_RBAC_005     | Redirect đúng trang sau login desktop (teacher)                       |
-| 6   | TC_RBAC_006     | Redirect đúng trang sau login desktop (student)                       |
-| 7   | TC_RBAC_007     | Sử dụng endpoint không được cấp quyền                                 |
-| 8   | TC_RBAC_008     | Get dữ liệu theo role - student                                       |
-| 9   | TC_RBAC_009     | Get dữ liệu theo role - teacher                                       |
-| 10  | TC_RBAC_010     | Get dữ liệu theo role - admin (scope=all)                             |
-| 11  | TC_RBAC_011     | Get dữ liệu theo role - admin (scope=self)                            |
+| 1   | TC_RBAC_001     | Kiểm tra redirect đúng trang sau login web (admin)                             |
+| 2   | TC_RBAC_002     | Kiểm tra redirect đúng trang sau login web (teacher)                           |
+| 3   | TC_RBAC_003     | Kiểm tra redirect đúng trang sau login web (student)                           |
+| 4   | TC_RBAC_004     | Kiểm tra redirect đúng trang sau login desktop (admin)                         |
+| 5   | TC_RBAC_005     | Kiểm tra redirect đúng trang sau login desktop (teacher)                       |
+| 6   | TC_RBAC_006     | Kiểm tra redirect đúng trang sau login desktop (student)                       |
+| 7   | TC_RBAC_007     | Kiểm tra sử dụng endpoint không được cấp quyền                                 |
+| 8   | TC_RBAC_008     | Kiểm tra Get dữ liệu theo role - student                                       |
+| 9   | TC_RBAC_009     | Kiểm tra Get dữ liệu theo role - teacher                                       |
+| 10  | TC_RBAC_010     | Kiểm tra Get dữ liệu theo role - admin (scope=all)                             |
+| 11  | TC_RBAC_011     | Kiểm tra Get dữ liệu theo role - admin (scope=self)                            |
 
 ### 1.4. SQL Injection (7 test cases)
 
