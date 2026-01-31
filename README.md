@@ -11,7 +11,7 @@ kế, góp phần giúp đề tài có tính thực tiễn khi triển khai an t
 - Công cụ: Manual Testing, Thunder Client, Postman.
 
 ## Badges
-![Postman](https://img.shields.io/badge/Postman-34_Tests-orange?style=flat&logo=postman)
+![Postman](https://img.shields.io/badge/Postman-API_Tests-orange?style=flat&logo=postman)
 ![Thunder Client](https://img.shields.io/badge/Thunder_Client-API_Tests-yellow?style=flat&logo=thunder-client)
 ![Java](https://img.shields.io/badge/Java-Desktop_App-green?style=flat&logo=java)
 ![PHP](https://img.shields.io/badge/PHP-Web_&_API-blueviolet?style=flat&logo=php)
