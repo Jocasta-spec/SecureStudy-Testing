@@ -6,7 +6,15 @@
 - **Số lượng test case thực hiện:** 32 test cases về bảo mật  
 - **Phạm vi kiểm thử:** Web (PHP), Desktop App (Java Swing), API (PHP)  
 - **Công cụ chính:** Postman (Windows 64-bit), Thunder Client (VS Code), trình duyệt web, kiểm tra cơ sở dữ liệu trực tiếp  
-- **Môi trường:** Localhost (XAMPP)  
+- **Môi trường kiểm thử:**
+  -	Operating System: Window 11
+  -	Server: Apache 2.4.58 (XAMPP)
+  -	PHP Version: trên 8.0
+  -	Database: MariaDB 10.4.32 (XAMPP)
+  -	Môi trường kiểm thử (Test Environment): 
+    o	Web: Local Test Environment với Apache, MySQL trên XAMPP và Chrome/Edge làm client.
+    o	Desktop: Development runtime trên IDE + JVM
+  
 - **Kết quả tổng thể:** **100% Passed** (tất cả 32 test case đều đạt P – Pass)
 
 ## 2. Phân loại Test Cases theo nhóm (theo tài liệu gốc)
