@@ -15,7 +15,7 @@ kế, góp phần giúp đề tài có tính thực tiễn khi triển khai an t
 ![Thunder Client](https://img.shields.io/badge/Thunder_Client-API_Tests-yellow?style=flat&logo=thunder-client)
 ![Java](https://img.shields.io/badge/Java-Desktop_App-green?style=flat&logo=java)
 ![PHP](https://img.shields.io/badge/PHP-Web_&_API-blueviolet?style=flat&logo=php)
-![MySQL](https://img.shields.io/badge/MySQL-brightgreen?style=flat&logo=mysql)
+![XAMPP](https://img.shields.io/badge/MySQL-orange?style=flat&logo=mysql)
 ![Security](https://img.shields.io/badge/Security-success)
 ![Passed](https://img.shields.io/badge/Test_Status-100%25_Passed-success)
 
