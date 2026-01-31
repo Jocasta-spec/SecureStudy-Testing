@@ -10,7 +10,7 @@
 - SQL Injection
 - Rate-limiting – Giới hạn tần suất truy cập
 
-## 1. Các nhóm Test Case (Tóm tắt)
+## 1. Các nhóm Test Case
 
 ### 1.1. CSRF Protection (6 test cases)
 
