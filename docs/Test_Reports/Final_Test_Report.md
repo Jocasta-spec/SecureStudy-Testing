@@ -1,5 +1,3 @@
-<img src="https://github.com/user-attachments/assets/70b760cd-baec-4896-be69-61efb1294414" />
-
 # BÁO CÁO KIỂM THỬ TOÀN DIỆN & BẢO MẬT 
 **DỰ ÁN SECURESTUDY – HỆ THỐNG QUẢN LÝ THI VÀ KIỂM TRA TRẮC NGHIỆM TRỰC TUYẾN ĐA NỀN TẢNG**  
 **Đề tài:** Nghiên cứu Bảo mật API và Ứng dụng trong Xây dựng Hệ thống Thi Trắc nghiệm Đa nền tảng  
