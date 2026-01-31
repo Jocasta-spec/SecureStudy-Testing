@@ -12,7 +12,7 @@ kế, góp phần giúp đề tài có tính thực tiễn khi triển khai an t
 
 ## Badges
 ![Postman](https://img.shields.io/badge/Postman-34_Tests-orange?style=flat&logo=postman)
-![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-23_Security_Tests-blue?style=flat&logo=owasp)
+![Thunder Client](https://img.shields.io/badge/Thunder_Client-API_Tests-yellow?style=flat&logo=thunder-client)
 ![Java](https://img.shields.io/badge/Java-Desktop_App-green?style=flat&logo=java)
 ![PHP](https://img.shields.io/badge/PHP-Web_&_API-blueviolet?style=flat&logo=php)
 ![MySQL](https://img.shields.io/badge/MySQL-Prepared_Statements-brightgreen?style=flat&logo=mysql)
