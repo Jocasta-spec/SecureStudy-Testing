@@ -10,9 +10,6 @@
 |-----------------|---------|
 | Kế hoạch kiểm thử | 1       |
 | Trường hợp kiểm thử | 38    |
-| Đạt             | 19     |
-| Thất bại        | 15      |
-| Đã khắc phục        | 15      |
 
 **Tiến độ thực hiện trường hợp kiểm thử**: 100% hoàn thành
 
@@ -72,6 +69,6 @@
 | TC_DX_002        | Kiểm tra đăng xuất và xóa token thành công - Deskstop      | Người dùng đã đăng nhập vào hệ thống và token vẫn còn hiệu lực truy cập       | 1. Thực hiện chức năng bất kỳ trong hệ thống (ER-1, ER-2)<br>2. Sao chép JWT từ header khi thực hiện request API trong Terminal <br>3. Nhấn nút “Đăng xuất” trên giao diện ứng dụng<br>4. Dùng JWT để thực hiện request bằng Thunder Client (ER-3) |                                   | 1. API trả về kết quả thành công<br>2. Request có header Authorization: Bearer <JWT><br>3. API trả về 401 Unauthorized | 1. API trả về kết quả thành công<br>2. Request có header Authorization: Bearer <JWT><br>3. API trả về 401 Unauthorized | P                |         |
 
 ## Kết luận
-Tất cả 38 trường hợp kiểm thử đã được thực hiện. Trong đó, 19 trường hợp đạt, 15 trường hợp thất bại. Tuy nhiên, các trường hợp lỗi sau khi được chỉnh sửa và re-test, đã cho kết quả khả quan và được khắc phục. 
+Tất cả 38 trường hợp kiểm thử đã được thực hiện. Các trường hợp lỗi sau khi được chỉnh sửa và re-test, đã cho kết quả khả quan và được khắc phục. 
 
 Tham khảo thêm `docs/Full_System_Testing/Screenshots` để xem kết quả chi tiết.
