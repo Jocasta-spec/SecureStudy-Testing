@@ -74,4 +74,4 @@
 ## Kết luận
 Tất cả 38 trường hợp kiểm thử đã được thực hiện. Trong đó, 19 trường hợp đạt, 15 trường hợp thất bại. Tuy nhiên, các trường hợp lỗi sau khi được chỉnh sửa và re-test, đã cho kết quả khả quan và được khắc phục. 
 
-Tham khảo thêm `docs/Screenshots` để xem kết quả chi tiết.
+Tham khảo thêm `docs/Full_System_Testing_Screenshots` để xem kết quả chi tiết.
