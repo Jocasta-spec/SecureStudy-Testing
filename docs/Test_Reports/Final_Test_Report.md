@@ -11,6 +11,7 @@
 |---------|----------|------------|
 | Tổng test case kiểm thử chức năng | 38 | 100% Passed (sau khi khắc phục lỗi) |
 | Test case bảo mật chuyên sâu | 32 | 100% Passed |
+| Test case không đạt | 20 | Đã fix hết |
 | Tổng cộng | 70 | 100% Passed |
 | Lỗ hổng Critical/High còn lại | 0 | Clean |
 
