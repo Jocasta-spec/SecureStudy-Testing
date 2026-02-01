@@ -19,9 +19,8 @@
 
 ## 2. Giai đoạn 1 – Kiểm thử chức năng toàn hệ thống (38 test cases)
 
-**Thời gian thực hiện:** 30/08/2025 → 31/10/2025  
-**Kết quả ban đầu:** 19 Passed – 14 Failed  
-**Sau khi fix & retest lần 2–3:** Tất cả 38 test cases đạt Passed 100%
+**Thời gian thực hiện:** 30/08/2025 → 31/10/2025
+**Kết quả:** 38/38 Passed (100%)
 
 ## 3. Giai đoạn 2 – Kiểm thử bảo mật chuyên sâu (32 test cases)
 
@@ -52,7 +51,7 @@
 
 ## 4. Kết luận & Đề xuất
 
-1. **Tất cả 65 test cases (38 chức năng + 32 bảo mật)** đều đạt Passed 100%.
+1. **Tất cả 70 test cases (38 chức năng + 32 bảo mật)** đều đạt Passed 100%.
 2. Hệ thống SecureStudy đã thực thi bảo mật cho các lỗ hổng:
    - CSRF
    - SQL Injection
