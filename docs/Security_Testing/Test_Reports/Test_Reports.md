@@ -17,7 +17,7 @@
   
 - **Kết quả tổng thể:** **100% Passed** (tất cả 32 test case đều đạt P – Pass)
 
-## 2. Phân loại Test Cases theo nhóm (theo tài liệu gốc)
+## 2. Phân loại Test Cases theo nhóm 
 | Nhóm kiểm thử                        | Số lượng | Mã test case                                                                 | Tỷ lệ Pass | Ghi chú chính |
 |--------------------------------------|----------|------------------------------------------------------------------------------|------------|----------------------------------|
 | CSRF Protection                      | 6        | TC_CSRF_001 → TC_CSRF_006                                                    | 100%       | Kiểm tra thiếu/không khớp CSRF token ở body, cookie, header X-CSRF-Token |
