@@ -71,10 +71,6 @@
 
 ## 2. Thực thi kiểm thử (Chi tiết toàn bộ 32 test case)
 
-# 32 Test Cases Bảo Mật – SecureStudy
-
-## 2. Thực thi kiểm thử
-
 | Mã Test Case     | Tên Test Case                                              | Tiền điều kiện                                                                 | Các bước thực hiện                                                                                          | Dữ liệu kiểm thử                                                                                                   | Kết quả mong đợi                                                                                                   | Kết quả thực tế | Kết quả kiểm thử | Ghi chú |
 |------------------|------------------------------------------------------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|-----------------|------------------|---------|
 | TC_CRUD-JWT_001  | Kiểm tra API lấy danh sách User                            | Admin login web với role=admin, JWT hợp lệ                                     | 1. Copy auth_token (JWT) tạo ra từ cookie<br>2. Gửi request POST http://localhost/API_Secu/app/index.php?action=get<br>3. Nhập request body | {"action": "get", "table": "account", "role": "admin", "status": "active", "scope":"all"}                          | 1. API trả danh sách user (200)<br>2. Dữ liệu trả về đúng                                                         |                 |                  |         |
