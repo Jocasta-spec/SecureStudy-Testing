@@ -1,0 +1,238 @@
+{
+	"info": {
+		"_postman_id": "cb147aa6-3547-4cae-90af-977197ace97e",
+		"name": "SecureStudy API Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50077983",
+		"_collection_link": "https://jocasta-spec-9760435.postman.co/workspace/Cam-Tu-Nguyen's-Workspace~e713c9fd-a427-4e4b-884f-935bb8996a78/collection/50077983-cb147aa6-3547-4cae-90af-977197ace97e?action=share&source=collection_link&creator=50077983"
+	},
+	"item": [
+		{
+			"name": "CSRF",
+			"item": [
+				{
+					"name": "add user (no CSRF)",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "add user (valid)",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "RBAC",
+			"item": [
+				{
+					"name": "TC_RBAC_007",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "TC_RBAC_008",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "TC_RBAC_009",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "TC_RBAC_010",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "TC_RBAC_011",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CRUD",
+			"item": [
+				{
+					"name": "add with no csrf_token",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "TC_CRUD-JWT_001",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "TC_CRUD-JWT_002",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "TC_CRUD-JWT_003",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"action\": \"AdminUpdate\", \r\n    \"table\": \"account\", \r\n    \"email\": \"camtunguyen.alexia@gmail.com\", \r\n    \"emailUpdate\":\"camtu7092003@gmail.com\", \r\n    \"FullName\":\"Test Update\", \r\n    \"roleUpdate\": \"admin\", \r\n    \"status\": \"active\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_app_url}}app/index.app?action=AdminUpdate",
+							"host": [
+								"{{base_app_url}}app"
+							],
+							"path": [
+								"index.app"
+							],
+							"query": [
+								{
+									"key": "action",
+									"value": "AdminUpdate"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TC_CRUD-JWT_004",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "TC_CRUD-JWT_005",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SQLi",
+			"item": [
+				{
+					"name": "TC_SQLi-Value",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "TC_SQLi-Where-Bypass",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "TC_SQLi-Table",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "TC_SQLi-Value-SpecialChars",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "SQLi - boolean bypass - không Return toàn bộ bảng",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "SQLi - Column Filtering - fake column",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "SQLi - numeric param injection - Query ko match record nào",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "SQLi - stacked query (DROP)",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "SQLi - Type Binding - Invalid Data Type",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Advanced",
+			"item": []
+		}
+	]
+}
